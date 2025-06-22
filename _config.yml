@@ -1,0 +1,24 @@
+# サイト基本情報
+title: "e-Teru's Tech & Creative Hub"
+description: "AI活用とクリエイティブ技術の情報発信"
+author: "e-Teru & 春香"
+url: "https://e-teru-official.github.io"
+
+# Markdown設定
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# テーマ
+theme: minima
+
+# プラグイン
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# 除外ファイル
+exclude:
+  - README.md
